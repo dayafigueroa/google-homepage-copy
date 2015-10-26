@@ -3,20 +3,23 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-      <form>
-            <div class="content">
-              <center>
-                <img id="logo.jpg" src="images/logo.jpg" height="90" width="272" align="middle">
-              <center/>
-            </div>
+        <div class="content">
+          <center>
             <div>
-              <center>
-                  <input type="text" width="100">
-                  <br> <br>
-                  <input type="submit" value="Google Search">
-                  <input type="submit" value="I'm Feeling Lucky">
-            </center>
+              <img id="logo" src="images/logo.jpg">
             </div>
-      </form>
+            <div id="searchForm" top="311px">
+              <form action="" method="get" name="searchForm">
+                <div>
+                  <input type="text" id="searchBox">
+                </div>
+                <div style="padding-top:18px">
+                  <input type="submit" id="regSearch" value="Google Search">
+                  <input type="submit" id="luckySearch" value="I'm Feeling Lucky">
+                </div>
+              </form>
+            </div>
+          </center>
+        </div>
   </body>
 </html>
