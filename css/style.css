@@ -1,8 +1,8 @@
 #logo {
-    margin: 89px;
+    margin: 0px;
     padding-top: 109px;
-    height: 92px;
-    width: 272px;
+    height: 183px;
+    width: 275px;
     align-self: middle;
 }
 
@@ -26,6 +26,10 @@ center {
   width: 500px;
 }
 
+#submit {
+  padding-top:18px;
+}
+
 input[type="submit"] {
   margin: 11px 4px;
   padding: 0px 16px;
@@ -34,4 +38,6 @@ input[type="submit"] {
   line-height: 27px;
   color: #808080;
   background-color: #F5F5F5;
+  border-color: transparent;
+  border-size: 1px;
 }
